@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00dd32702bc80654f889eb10211766c6, type: 3}
+  m_Name: Puzzle 1.1
+  m_EditorClassIdentifier: 
+  npcText: 'Oh...
+
+    Actually me too, I''ve been trying to solve this puzzle, can
+    you help?'
+  isFinalNode: 0
+  options:
+  - optionText: No I don't feel like it
+    nextNode: {fileID: 11400000, guid: 9c2d9da05b811ce4eab9a071c4d6a596, type: 2}
+    pointsToAdd: 0
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    eventIndex: -1
+  - optionText: Yes sure I can help
+    nextNode: {fileID: 11400000, guid: be29ee5b103aa8546ab2eb34afc3cc63, type: 2}
+    pointsToAdd: 1
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    eventIndex: 0

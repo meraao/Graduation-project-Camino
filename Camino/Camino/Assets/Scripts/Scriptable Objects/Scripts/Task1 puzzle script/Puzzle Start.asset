@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00dd32702bc80654f889eb10211766c6, type: 3}
+  m_Name: Puzzle Start
+  m_EditorClassIdentifier: 
+  npcText: 'Hey! This is Rana, how are you doing today?
+
+'
+  isFinalNode: 0
+  options:
+  - optionText: Not Having it.
+    nextNode: {fileID: 11400000, guid: 05179eeb3a990204fb91a81a99559a8d, type: 2}
+    pointsToAdd: 0
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    eventIndex: -1
+  - optionText: I'm doing great!
+    nextNode: {fileID: 11400000, guid: 73545af14f347e24a8b45f3610bd343f, type: 2}
+    pointsToAdd: 0
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    eventIndex: -1

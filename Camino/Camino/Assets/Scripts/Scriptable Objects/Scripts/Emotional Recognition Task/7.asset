@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00dd32702bc80654f889eb10211766c6, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  charName: Ghala
+  npcText: "We just want to know you! \nWe don't really get any guests here."
+  isFinalNode: 0
+  options:
+  - optionText: Yea I can see
+    nextNode: {fileID: 11400000, guid: 8327ab947b8b2724f8d0aec0c6847566, type: 2}
+    pointsToAdd: 0
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    eventIndex: -1

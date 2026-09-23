@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8a3b39289b4174bbafb3d377a0ce70, type: 3}
+  m_Name: Question lvl3
+  m_EditorClassIdentifier: 
+  puzzleWithMissingPiece: {fileID: 21300000, guid: 3a5eced462c726d4184d69a58d57ee7e, type: 3}
+  answers:
+  - pieceImage: {fileID: 21300000, guid: 440290192420d9c47948ab43a151758a, type: 3}
+    isTrue: 0
+  - pieceImage: {fileID: 21300000, guid: 0985f074d4f6845469ca6e9023a08cf9, type: 3}
+    isTrue: 1
+  - pieceImage: {fileID: 21300000, guid: 6180386c04e38f94899243b6c6ff7d6c, type: 3}
+    isTrue: 0
+  - pieceImage: {fileID: 21300000, guid: 03fa2dbb102499649b9dbcdee17fc065, type: 3}
+    isTrue: 0
+  - pieceImage: {fileID: 21300000, guid: 03fa2dbb102499649b9dbcdee17fc065, type: 3}
+    isTrue: 0

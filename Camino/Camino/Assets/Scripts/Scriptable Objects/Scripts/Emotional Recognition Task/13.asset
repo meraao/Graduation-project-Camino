@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00dd32702bc80654f889eb10211766c6, type: 3}
+  m_Name: 13
+  m_EditorClassIdentifier: 
+  charName: Ghala
+  npcText: 'Ahahaha
+
+    so, would you like to help me figure these emotions out?'
+  isFinalNode: 0
+  options:
+  - optionText: "sure, let\u2019s try"
+    nextNode: {fileID: 11400000, guid: 472c80fd9bfde534fac3c592ef0d4586, type: 2}
+    pointsToAdd: 0
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    eventIndex: 4
+  - optionText: "i think i\u2019ll pass"
+    nextNode: {fileID: 11400000, guid: 576233bab128e1844aef5d6d46ea1d77, type: 2}
+    pointsToAdd: 0
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    eventIndex: -1

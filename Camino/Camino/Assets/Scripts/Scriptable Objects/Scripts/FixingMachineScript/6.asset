@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00dd32702bc80654f889eb10211766c6, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  charName: Faris
+  theSpeaker: 
+  npcText: Oh that checks! Well then, I know I don't have much to say but make yourself
+    at home!
+  isFinalNode: 0
+  options:
+  - optionText: Thanks Faris
+    nextNode: {fileID: 11400000, guid: ca1ff1e903b7a794ea1250242f9ca605, type: 2}
+    traitToIncrease: 
+    pointsToAdd: 0
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    eventIndex: -1
+  - optionText: (I hope to get out of here soon)
+    nextNode: {fileID: 11400000, guid: ac8dd931ffeecd441a3e718ae5b76c87, type: 2}
+    traitToIncrease: 
+    pointsToAdd: 0
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    eventIndex: -1
